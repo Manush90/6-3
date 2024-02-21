@@ -4,6 +4,7 @@
 
 body {
   margin: 0px;
+  padding: 0 15px 0 15px;
 }
 
 h1,
@@ -23,6 +24,42 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-left: -35px;
+}
+
+li {
+  margin-right: 10px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+i {
+  height: 10px;
+  width: auto;
+}
+
+.buttons {
+  border-radius: 5px;
+  height: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.classbuttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.halfWidth {
+  width: 40%;
+}
+
+.merrywet {
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .row {
@@ -34,21 +71,55 @@ ul {
 }
 
 .size {
-  width: 10rem;
-  height: 10rem;
-  object-fit: cover;
+  width: auto;
+  height: 140px;
   border-radius: 5px;
 }
 
 .logo {
+  height: 350px;
+  object-fit: cover;
+}
+
+.scudetto {
   height: 70px;
 }
 
 .navbar {
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.barnav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 0;
+  border: 2px solid orange;
+}
+
+.nopoint {
+  text-decoration: none;
+}
+
+.FlexBtw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padleft {
+  padding-left: 2rem;
 }
 
 .bg-rosso {

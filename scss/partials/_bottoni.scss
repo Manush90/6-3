@@ -1,0 +1,14 @@
+.buttons {
+  border-radius: 5px;
+  height: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.classbuttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.halfWidth {
+  width: 40%;
+}
