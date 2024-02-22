@@ -33,29 +33,33 @@
         </ul>
       </nav>
     </div>
-
-    <div class="navbar bg-orange merrywet">
-      <div class="halfWidth padleft">
-        <h1>Stagione 23/24</h1>
-        <h2>Campagna Abbonamenti</h2>
-        <p>
-          E' iniziata la nuova campagna abbonamenti per la stagione 23/24, La fase di prelazione
-          riservata agli abbonati della stagione 22/23 prenderà il via Martedì 20 Maggio, cosa
-          aspetti conferma il tuo posto !
-        </p>
+    <main>
+      <div class="navbar bg-orange merrywet">
+        <div class="halfWidth padleft">
+          <h1>Stagione 23/24</h1>
+          <h2>Campagna Abbonamenti</h2>
+          <p>
+            E' iniziata la nuova campagna abbonamenti per la stagione 23/24, La fase di prelazione
+            riservata agli abbonati della stagione 22/23 prenderà il via Martedì 20 Maggio, cosa
+            aspetti conferma il tuo posto !
+          </p>
+        </div>
+        <div class="classbuttons">
+          <img
+            class="adidas"
+            src="./assets/vecteezy_adidas-logo-png-adidas-icon-transparent-png_19766233.png"
+            alt=""
+          />
+          <button class="buttons merrywet">Biglietti</button>
+          <button class="buttons merrywet">Abbonamenti</button>
+          <button class="buttons merrywet">Trasferte</button>
+        </div>
+        <img
+          class="logo"
+          src="https://www.rainews.it/dl/img/2022/05/25/1653514672880_GettyImages.jpg"
+        />
       </div>
-      <div class="classbuttons">
-        <i class="fal fa-ticket-alt"></i>
-        <button class="buttons merrywet">Biglietti</button>
-        <button class="buttons merrywet">Abbonamenti</button>
-        <button class="buttons merrywet">Trasferte</button>
-      </div>
-      <img
-        class="logo"
-        src="https://www.rainews.it/dl/img/2022/05/25/1653514672880_GettyImages.jpg"
-      />
-    </div>
-
+    </main>
     <section>
       <div class="FlexBtw">
         <img
@@ -80,5 +84,18 @@
         />
       </div>
     </section>
+    <script>
+      setTimeout(function () {
+        document.querySelector("main").classList.add("loaded");
+      }, 1000);
+
+      setTimeout(function () {
+        document.querySelector("section").classList.add("loaded");
+      }, 3000);
+
+      setTimeout(function () {
+        document.querySelector("body").classList.add("loaded");
+      }, 500);
+    </script>
   </body>
 </html>

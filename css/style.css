@@ -43,6 +43,22 @@ i {
   width: auto;
 }
 
+main {
+  transition: all 1s ease;
+  opacity: 0;
+}
+body.loaded main {
+  opacity: 1;
+}
+
+section {
+  transition: all 3s ease;
+  opacity: 0;
+}
+body.loaded section {
+  opacity: 1;
+}
+
 .buttons {
   border-radius: 5px;
   height: 30px;
@@ -56,6 +72,10 @@ i {
 
 .halfWidth {
   width: 40%;
+}
+
+.adidas {
+  height: 108px;
 }
 
 .merrywet {

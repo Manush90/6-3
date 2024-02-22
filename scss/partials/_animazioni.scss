@@ -1,0 +1,16 @@
+@mixin delayed-transition($property, $delay, $ease: ease) {
+  transition: #{$property} $delay $ease;
+  opacity: 0;
+
+  body.loaded & {
+    opacity: 1;
+  }
+}
+
+main {
+  @include delayed-transition(all, 1s);
+}
+
+section {
+  @include delayed-transition(all, 3s);
+}
